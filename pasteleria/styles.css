@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #f28d72;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
+
+nav {
+    text-align: center;
+    background-color: #f1c6b8;
+    padding: 10px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: #e8b7a2;
+    border-radius: 5px;
+}
+
+section {
+    padding: 40px 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+h2 {
+    color: #f28d72;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product h3 {
+    color: #f28d72;
+}
+
+#galeria {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px; 
+}
+
+#galeria p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+#galeria .gallery {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#galeria .gallery img {
+    width: 100%;
+    max-height: 250px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#galeria .gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#contacto {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #f1c6b8;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px;
+}
+
+* { box-sizing: border-box; 
+}
+
+#galeria .gallery img {
+    width: 100%;
+    max-height: 250px;
+}
