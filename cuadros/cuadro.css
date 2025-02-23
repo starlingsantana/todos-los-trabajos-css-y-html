@@ -1,0 +1,112 @@
+.box {
+    background-color: rgb(72, 221, 13);
+    border-radius: 20px;
+    margin: auto;
+    border: solid rgb(0, 0, 0);
+    height: 470px;
+    width: 400px;
+}
+
+.car1 {
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 7rem;
+}
+
+.titulo {
+    border-radius: 5px;
+    border-bottom: 4px solid rgb(0, 0, 0);
+}
+
+.circulo {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+}
+img {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: center;
+}
+
+.car2 > div {
+    
+    text-align: center;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.uno {
+    padding: 20px;
+    background: linear-gradient(90deg,rgb(210, 24, 24),rgb(52, 12, 211));
+}
+
+.dos {
+    padding: 20px;
+    background: rgb(179, 228, 34);
+}
+.tres {
+    padding: 20px;
+    background: linear-gradient(90deg,rgb(7, 195, 20),rgb(110, 209, 11));
+}
+
+.car3 {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+.car3 > div {
+    width: 40px;
+    border-radius: 30px;
+    background-color: rgb(16, 214, 20);
+    margin: 10px;
+    text-align: center;
+}
+
+.cubo2 {
+    background-color: rgb(15, 218, 15);
+    gap: 10rem;
+}
+
+.car4 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.car4 > div {
+    border: 5px solid rgb(218, 12, 12);
+    border-radius: 4px;
+    background-color: rgb(151, 236, 249, 0.3);
+    padding: 20px;
+    width: 140px;
+}
+
+.car5 {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.car5 > div{
+    border: 5px solid rgb(223, 16, 16);
+    border-radius: 4px;
+    background-color: rgb(151, 236, 249, 0.3);
+    width: 320px;
+    padding: 20px;
+}
+
+.lineadiv {
+    border-bottom: 5px solid rgb(0, 0, 0);
+}
